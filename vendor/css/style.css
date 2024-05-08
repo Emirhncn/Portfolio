@@ -1,0 +1,539 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --maincolor1: rgb(208, 36, 82);
+    --textcolor1: aliceblue;
+    --textcolor2: black;
+    --textsizedefault: 1.2rem;
+    --pd1: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+nav .logo {
+    font-size: var(--textsizedefault);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px;
+}
+
+nav ul li {
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 20px 40px;
+}
+
+nav ul li:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: .2s;
+    color: var(--maincolor1);
+    scale: 1.1;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--textcolor2);
+    font-size: var(--textsizedefault);
+    text-wrap: nowrap;
+}
+
+nav ul li a:hover {
+    color: var(--maincolor1);
+}
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80vh;
+    padding: 50px 300px;
+}
+
+.main_container .content1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+
+.main_container .content1 .title {
+    font-size: var(--textsizedefault);
+    font-size: 1.5rem;
+    text-align: start;
+    margin-top: 100px;
+}
+
+.main_container .content1 .main_content {
+    font-size: 2.5rem;
+}
+
+.main_container .content1 .last_content {
+    font-size: 1.5rem;
+}
+
+.main_container .content2 {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 11.6vh;
+    display: flex;
+    padding: 0px 400px;
+}
+
+.footer-container .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-container .left ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    color: var(--maincolor1);
+}
+
+.footer-container .left ul li {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-container .left ul li:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
+.footer-container .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+}
+
+.footer-container .right ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    color: var(--maincolor1);
+}
+
+.footer-container .right ul li {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 65px;
+    height: 67.5px;
+}
+
+.footer-container .right ul li:hover {
+    scale: 1.1;
+    transition: .2s;
+}
+
+@media screen and (max-width:1600px) {
+    .main_container {
+        padding: 50px 200px !important;
+    }
+
+    .main_container .content1 {
+        padding: 100px 0px;
+    }
+
+    .main_container .content1 .title {
+        font-size: 1.2rem;
+        margin-top: 100px;
+    }
+
+    .main_container .content1 .main_content {
+        font-size: 2rem;
+    }
+
+    .main_container .content1 .last_content {
+        font-size: 1.2rem;
+    }
+
+    .footer-container {
+        padding: 0px 300px;
+    }
+
+}
+
+@media screen and (max-width:1400px) {
+    nav ul li {
+        width: 100px;
+        height: 50px;
+        padding: 20px 40px;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+
+    nav .logo {
+        font-size: 1.3rem;
+    }
+
+    .main_container {
+        padding: 0px 50px !important;
+    }
+
+    .main_container .content1 {
+        padding: 200px 0px;
+    }
+
+    .main_container .content2 {
+        padding: 200px 0px;
+    }
+
+    .main_container .content1 .title {
+        font-size: 1.3rem;
+        margin-top: 100px;
+    }
+
+    .main_container .content1 .main_content {
+        font-size: 1.7rem;
+    }
+
+    .main_container .content1 .last_content {
+        font-size: 1.3rem;
+    }
+
+    .footer-container {
+        padding: 0px 200px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .main_container {
+        padding: 100px 10px !important;
+    }
+
+    .main_container .content1 {
+        padding: 100px 0px !important;
+    }
+
+    .main_container .content1 .title {
+        font-size: 1rem;
+        margin-top: 100px;
+    }
+
+    .main_container .content1 .main_content {
+        font-size: 1.6rem;
+    }
+
+    .main_container .content1 .last_content {
+        font-size: 1rem;
+    }
+
+    .main_container .content2 {
+        padding: 100px 0px !important;
+    }
+
+    .footer-container {
+        padding: 0px 100px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    nav ul li {
+        width: 80px;
+        height: 40px;
+        padding: 20px 50px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    nav .logo {
+        font-size: 1.2rem;
+    }
+
+    .footer-container {
+        padding: 0px 10px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .main_container .content2 {
+        padding: 150px 0px !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .main_container .content2 img {
+        width: 200px;
+    }
+
+    .main_container {
+        padding: 100px 10px !important;
+    }
+
+    .main_container .content1 {
+        padding: 100px 0px !important;
+    }
+
+    .main_container .content1 .title {
+        font-size: .9rem;
+        margin-top: 30px;
+    }
+
+    .main_container .content1 .main_content {
+        font-size: 1.3rem;
+    }
+
+    .main_container .content1 .last_content {
+        font-size: .9rem;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        padding: 5px 20px;
+    }
+
+    nav ul {
+        margin: 0px;
+        padding: 5px 10px;
+    }
+
+    nav ul li {
+        width: 70px;
+        height: 40px;
+    }
+
+    nav ul li a {
+        font-size: .9rem;
+    }
+
+    nav .logo {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        padding: 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav ul {
+        width: 400px;
+        margin: 0px;
+        padding: 5px 10px !important;
+    }
+    
+    nav ul li {
+        width: 70px !important;
+        height: 40px !important;
+        padding: 0;
+    }
+    
+    nav ul li a {
+        font-size: .7rem;
+    }
+    
+    nav .logo {
+        font-size: 0rem;
+    }
+    
+    .footer-container ul {
+        padding: 0;
+    }
+    
+    .main_container {
+        display: block;
+        padding: 100px 100px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main_container .content1 {
+        width: 100%;
+    }
+    
+    .main_container .content1 .main_content {
+        text-align: center;
+    }
+    
+    .main_container .content1 .last_content {
+        text-align: center;
+    }
+    
+    .main_container .content2 {
+        width: 100%;
+        padding: 0px !important;
+    }
+    
+    .content2 img {
+        width: 150px !important;
+    }
+}
+@media screen and (max-width:450px){
+    .main_container .content1{
+        padding: 0px !important;
+    }
+    .main_container .content2 img{
+        padding: 100px 0;
+    }
+}
