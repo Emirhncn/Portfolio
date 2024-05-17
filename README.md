@@ -1,1 +1,1 @@
-https://github.com/Emirhncn/Portfolio.git
+https://github.com/Emirhncn/Portfolio
